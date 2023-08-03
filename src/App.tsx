@@ -1,6 +1,7 @@
 import { Button, ButtonGroup, Grid, GridItem, Show } from "@chakra-ui/react";
 import "./App.css";
 import NavBar from "./componets/NavBar";
+import ColorModeSwitch from "./componets/ColorModeSwitch";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     >
       <GridItem area="nav">
         <NavBar/>
+      
       </GridItem>
       <Show above="lg">
         <GridItem area="aside" bg="gold">
@@ -19,7 +21,6 @@ function App() {
         </GridItem>
       </Show>
       <GridItem area="main" bg="blue">
-        Main
       </GridItem>
     </Grid>
   );

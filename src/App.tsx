@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./componets/NavBar";
 import ColorModeSwitch from "./componets/ColorModeSwitch";
 import GameGrid from "./componets/GameGrid";
+import GenreList from "./componets/GenreList";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       </GridItem>
       <Show above="lg">
         <GridItem area="aside" >
-          Aside
+        <GenreList></GenreList>
         </GridItem>
       </Show>
       <GridItem area="main" >
